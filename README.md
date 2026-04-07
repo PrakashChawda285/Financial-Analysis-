@@ -58,14 +58,16 @@ Total_Revolving_Bal	Outstanding balance
 Delinquent_Acc	Delinquent accounts
 Interest_Earned	Interest earned
 Cust_Satisfaction_Score	Customer satisfaction score
-🛠 Tools & Technologies
+
+
+[E] Tools & Technologies
 Power BI Desktop → Data visualization & dashboards
 Power Query → Data cleaning & transformation
 DAX (Data Analysis Expressions) → KPI calculations
 Data Modeling → Relationship building between tables
 Risk Scoring Model → Identify high-risk customers
 
-[E] Key Performance Indicators (KPIs)
+[F] Key Performance Indicators (KPIs)
 Financial Metrics
 Total Transaction Amount
 Interest Earned %
@@ -83,7 +85,7 @@ Customer Churn
 Satisfaction Score
 Income vs Credit Limit Correlation
 
-[F] Key DAX Measures
+[G] Key DAX Measures
 Running Total Transactions
 RUNNING_TOTAL_CREDIT_CARD =
 CALCULATE(
@@ -119,7 +121,7 @@ SUM(Credit_card[Total_trans_amt])
 RETURN
 DIVIDE(CurrentMonth - PrevMonth, PrevMonth)
 
-[G] Key Insights
+[H] Key Insights
 46M total transaction amount processed
 6.06% delinquency rate observed
 112 high-risk customers identified
@@ -127,7 +129,7 @@ DIVIDE(CurrentMonth - PrevMonth, PrevMonth)
 10.27% month-over-month growth
 0.27 average utilization ratio
 
-[H] Data Analysis Process
+[I] Data Analysis Process
 1️⃣ Data Cleaning
 Removed null values
 Corrected data types
@@ -141,27 +143,27 @@ Created DAX measures
 Calculated financial ratios
 Developed risk scoring model
 
-[I] Project Outcomes
+[J] Project Outcomes
 Identified high-risk customers
 Analyzed customer behavior patterns
 Generated financial KPIs
 Created interactive dashboard
 Provided decision-support insights
 
-[J] Limitations
+[K] Limitations
 Dataset contains limited variables
 External economic factors not included
 Model assumes historical patterns continue
 Behavior changes may affect accuracy
 
-[K] Future Improvements
+[L] Future Improvements
 Machine Learning risk prediction model
 Customer segmentation using clustering
 Transaction forecasting
 Fraud detection system
 Real-time data integration
 
-[L] Recommendations
+[M] Recommendations
 Reduce credit limits for high-risk customers
 Create retention strategies to reduce churn
 Monitor high utilization customers
